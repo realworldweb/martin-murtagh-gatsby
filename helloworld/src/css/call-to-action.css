@@ -1,0 +1,21 @@
+.call-to-action{
+max-width: 100%;
+min-height: 30%;
+background-color: rgba(255,255,255,0.4);
+
+
+ 
+}
+
+.call-to-action__tagline{
+ 
+ color: var(--pal-navy);
+ font-weight: 900;
+ font-size: 4rem;
+
+
+}
+
+.call-to-action__tagline p{
+width: 60%;
+}
