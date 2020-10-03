@@ -1,15 +1,17 @@
-import React from "react"
+import React from 'react'
 import { Helmet } from 'react-helmet'
 
 
 
 import Header from '../components/header.js'
-import IndexMain from '../components/index-main.js'
+import CallToAction from '../components/call-to-action.js'
 
 
 
 
 export default function Home() {
+ 
+
   return (
     <div id="container">
   <Helmet>
@@ -35,7 +37,7 @@ export default function Home() {
     <Header />
   </header>
   <main id="main" className="d-block position-relative mb-5">
-   <IndexMain />
+   <CallToAction />
   </main>
   </div>
   )
